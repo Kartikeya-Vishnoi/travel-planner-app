@@ -1,0 +1,22 @@
+/* src/components/Place.css */
+
+.place {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for the card */
+    border-radius: 8px; /* Rounded corners for the card */
+  }
+  
+  .place img {
+    max-width: 100%;
+  }
+  
+  /* Optional: Add a hover effect */
+  .place:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    transition: transform 0.3s ease;
+  }
+  
